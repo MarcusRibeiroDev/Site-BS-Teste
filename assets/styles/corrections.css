@@ -1,0 +1,22 @@
+.active{
+    color: white !important;
+    border-bottom: none !important;
+    font-weight: bolder;
+}
+
+.nav-underline .nav-link:focus, .nav-underline .nav-link:hover {
+    border-bottom: none !important;
+}
+
+.nav-link{
+    border-bottom: none !important;
+}
+
+@media screen and (max-width: 426px) {
+    /*Quando for Max é menor que...faça isso*/
+    /*Screen, speech, print e all são os tipos cada um serve para algum propóstivo, porem é mais comum nem colocar*/
+    
+    img{
+        width: 300px;
+    };
+}
